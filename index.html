@@ -3,115 +3,134 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
     <title>Portfolio</title>
 </head>
 <body>
     <header class="header">
-        <div id="name">
-            <h2>
-                Dmitry Scherbinin
-            </h2>
-        </div>
-        <div id="toolbar">
-            <div class="menu">
-                Home
+        <div class="container">
+            <div id="name">
+                <h2>
+                    Dmitry Scherbinin
+                </h2>
             </div>
-            <div class="menu">
-                About me
-            </div>
-            <div class="menu">
-                Projects
-            </div>
-            <div class="menu">
-                Contact
-            </div>
+            <nav id="nav">
+                <div class="nav" id="home">
+                    Home
+                </div>
+                <div class="nav">
+                    About me
+                </div>
+                <div class="nav">
+                    Projects
+                </div>
+                <div class="nav">
+                    Contact
+                </div>
+            </nav>
         </div>
     </header>
     <div id="home">
-        <div id="home_f_line">
-            <div id="home_f_line_f_column">
-                <div id="home_f_line_f_column_f_line">
-                    <h2>
-                        Hello, i'm
-                    </h2>
-                    <h1>
-                        Dmitry Scherbinin
-                    </h1>
-                    <h2>
-                        Web - developer
-                    </h2>
-                </div>
-                <div id="home_f_line_f_column_s_line">
-                    <div class="button" id="about_me">
-                        <div>
-                            About me
+        <div class="container">
+            <div id="home_f_line">
+                <div id="home_f_line_f_column">
+                    <div id="home_f_line_f_column_f_line">
+                        <h2>
+                            Hello, i'm
+                        </h2>
+                        <h1>
+                            Dmitry Scherbinin
+                        </h1>
+                        <h2>
+                            Web - developer
+                        </h2>
+                    </div>
+                    <div id="home_f_line_f_column_s_line">
+                        <div class="button" id="about_me">
+                            <div>
+                                About me
+                            </div>
+                            <div>
+                                <img src="pic/user.svg" alt="user">
+                            </div>
                         </div>
-                        <div>
-                            <img src="pic/user.svg" alt="user">
+                        <div class="button" id="projects">
+                            <div>
+                                Projects
+                            </div>
+                            <div>
+                                <img src="pic/eye.svg" alt="eye">
+                            </div>
                         </div>
                     </div>
-                    <div class="button" id="projects">
-                        <div>
-                            Projects
-                        </div>
-                        <div>
-                            <img src="pic/eye.svg" alt="eye">
-                        </div>
+                </div>
+                <div id="home_f_line_s_column">
+                    <div id="bg">
+    
+                        <!--Purple round-->
+    
+                    </div>
+                    <div id="me">
+                        <img src="pic/me.svg" alt="me">
                     </div>
                 </div>
             </div>
-            <div id="home_f_line_s_column">
-                <div id="bg">
-
-                    <!--Purple round-->
-
-                </div>
-                <div id="me">
-                    <img src="pic/me.svg" alt="me">
-                </div>
+            <div id="home_s_line">
+    
+                <!--Black line-->
+    
             </div>
-        </div>
-        <div id="home_s_line">
-
-            <!--Black line-->
-
         </div>
     </div>
     <div id="about">
-        <div id="about_f_line">
-            <h2>
-                <span>
-                    About me:
-                </span>
-            </h2>
-            <h2>
-                Hi, my name is Dmitry Scherbinin, i am a web developer. Here are the major skiills i have.
-            </h2>
-            <div id="about_f_line_s_line">
-                <div>
+        <div class="container">
+            <div id="about_f_line">
+                <h2>
+                    <span>
+                        About me:
+                    </span>
+                </h2>
+                <h2>
+                    Hi, my name is Dmitry Scherbinin, i am a web developer. Here are the major skiills i have.
+                </h2>
+                <div id="about_f_line_s_line">
                     <div>
-                        2
+                        <div>
+                            2
+                        </div>
+                        <div>
+                            +
+                        </div>
+                    </div>
+                    <h2>
+                        Years of experience. Specialised in building apps, while ensuring a seamless
+                        web experience for end users.
+                    </h2>
+                </div>
+            </div>
+            <div id="about_s_line">
+                <div class="plate">
+                    <div>
+                        <img src="pic/metric.svg" alt="metric">
                     </div>
                     <div>
-                        +
+                        Adaptive & Pixel - Perfect
                     </div>
                 </div>
-                <h2>
-                    Years of experience. Specialised in building apps, while ensuring a seamless
-                    web experience for end users.
-                </h2>
+                <div class="plate">
+                    <div>
+                        <img src="pic/code.svg" alt="code">
+                    </div>
+                    <div>
+                        I create beautiful iterfaces with simple HTML, CSS, & JavaScript and also frameworks like Angular and ReactJS
+                    </div>
+                </div>
             </div>
         </div>
-        <div id="about_s_line">
-            <div class="plate">
-                <div>
-                    <img src="pic/metric.svg" alt="metric">
-                </div>
-                <div>
-                    Adaptive & Pixel - Perfect
-                </div>
-            </div>
-            <div class="plate">
+    </div>
+    <div id="services">
+        <div class="container">
+            <div class="card">
                 <div>
                     <img src="pic/code.svg" alt="code">
                 </div>
@@ -119,93 +138,142 @@
                     I create beautiful iterfaces with simple HTML, CSS, & JavaScript and also frameworks like Angular and ReactJS
                 </div>
             </div>
-        </div>
-    </div>
-    <div id="services">
-        <div class="card">
-            <div>
-                <img src="pic/code.svg" alt="code">
+            <div class="card">
+                <div>
+                    <img src="pic/metric.svg" alt="metric">
+                </div>
+                <div>
+                    I make adaptive and pixel - perfect web pages
+                </div>
             </div>
-            <div>
-                I create beautiful iterfaces with simple HTML, CSS, & JavaScript and also frameworks like Angular and ReactJS
-            </div>
-        </div>
-        <div class="card">
-            <div>
-                <img src="pic/metric.svg" alt="metric">
-            </div>
-            <div>
-                I make adaptive and pixel - perfect web pages
-            </div>
-        </div>
-        <div class="card">
-            <div>
-                <img src="pic/git.svg" alt="git">
-            </div>
-            <div>
-                I can use version control systems well, and Git & Mecurial are my go-to tool.
+            <div class="card">
+                <div>
+                    <img src="pic/git.svg" alt="git">
+                </div>
+                <div>
+                    I can use version control systems well, and Git & Mecurial are my go-to tool.
+                </div>
             </div>
         </div>
     </div>
-    <span>
-        Featured projects:
-    </span>
-    <h3>
-        I have worked on many projects over the course of being a Web Developer, here are a few of my live, real-world projects
-    </h3>
+    <div class="container">
+        <span>
+            Featured projects:
+        </span>
+        <h3>
+            I have worked on many projects over the course of being a Web Developer, here are a few of my live, real-world projects
+        </h3>
+    </div>
     <div id="projects">
-        <div class="projects">
-            <div>
-                <img src="pic/map.png" alt="map">
+        <div class="container">
+            <div class="projects">
+                <div>
+                    <img src="pic/map.png" alt="map">
+                </div>
+                <span>
+                    TWINDER
+                </span>
+                <h3>
+                    A live Geolocation app for finding tweets and twitter users around you.
+                </h3>
+                <div class="button_2">
+                    Github Repo
+                </div>
             </div>
-            <span>
-                TWINDER
-            </span>
-            <h3>
-                A live Geolocation app for finding tweets and twitter users around you.
-            </h3>
-            <div class="button_2">
-                Github Repo
+            <div class="projects">
+                <div>
+                    <img src="pic/map.png" alt="map">
+                </div>
+                <span>
+                    TWINDER
+                </span>
+                <h3>
+                    A live Geolocation app for finding tweets and twitter users around you.
+                </h3>
+                <div class="button_2">
+                    Github Repo
+                </div>
             </div>
-        </div>
-        <div class="projects">
-            <div>
-                <img src="pic/map.png" alt="map">
-            </div>
-            <span>
-                TWINDER
-            </span>
-            <h3>
-                A live Geolocation app for finding tweets and twitter users around you.
-            </h3>
-            <div class="button_2">
-                Github Repo
-            </div>
-        </div>
-        <div class="projects">
-            <div>
-                <img src="pic/map.png" alt="map">
-            </div>
-            <span>
-                TWINDER
-            </span>
-            <h3>
-                A live Geolocation app for finding tweets and twitter users around you.
-            </h3>
-            <div class="button_2">
-                Github Repo
+            <div class="projects">
+                <div>
+                    <img src="pic/map.png" alt="map">
+                </div>
+                <span>
+                    TWINDER
+                </span>
+                <h3>
+                    A live Geolocation app for finding tweets and twitter users around you.
+                </h3>
+                <div class="button_2">
+                    Github Repo
+                </div>
             </div>
         </div>
     </div>
     <div id="contact">
-        <div id="contact_f_column">
-            <h2>
-                Connect with me:
-            </h2>
-            <h3>
-                Satisfied with me? Please contact me
-            </h3>
-            <div id="social">
+        <div class="container">
+            <div id="contact_f_column">
+                <h2>
+                    Connect with me:
+                </h2>
+                <h3>
+                    Satisfied with me? Please contact me
+                </h3>
+                <div id="social">
+                    <div class="social">
+                        <div>
+                            <img src="pic/telegram.svg" alt="tg">
+                        </div>
+                        <div>
+                            <img src="pic/vk.svg" alt="vk">
+                        </div>
+                        <div>
+                            <img src="pic/gmail.svg" alt="gmail">
+                        </div>
+                        <div>
+                            <img src="pic/whatsapp.svg">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="contact_s_column">
+                <h2>
+                    Contact me, let’s make magic together
+                </h2>
+                <div id="forms">
+                    <div id="forms_f">
+                        <input type="text" id="name" required
+                        maxlength="20">
+                    </div>
+                    <div id="forms_s">
+                        <input type="text" id="email" required
+                        maxlength="20">
+                    </div>
+                    <div id="forms_th">
+                        <input type="text" id="message" required
+                        maxlength="200">
+                    </div>
+                </div>
+                <div id="button_3">
+                    <input type="button" value="Send">
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer id="footer">
+        <div class="container">
+            <div id="footer_f_line">
+                <div class="footer_f_line">
+                    @2022 Jayjay Dinero Dinero
+                </div>
+                <div class="footer_f_line">
+                    Web Developer
+                </div>
+                <div class="footer_f_line">
+                    Designed by @ernestechie
+                </div>
+            </div>
+            <div id="footer_s_line">
                 <div class="social">
                     <div>
                         <img src="pic/telegram.svg" alt="tg">
@@ -219,57 +287,6 @@
                     <div>
                         <img src="pic/whatsapp.svg">
                     </div>
-                </div>
-            </div>
-        </div>
-        <div id="contact_s_column">
-            <h2>
-                Contact me, let’s make magic together
-            </h2>
-            <div id="forms">
-                <div id="forms_f">
-                    <input type="text" id="name" required
-                    maxlength="20">
-                </div>
-                <div id="forms_s">
-                    <input type="text" id="email" required
-                    maxlength="20">
-                </div>
-                <div id="forms_th">
-                    <input type="text" id="message" required
-                    maxlength="200">
-                </div>
-            </div>
-            <div id="button_3">
-                <input type="button" value="Send">
-            </div>
-        </div>
-    </div>
-    <footer id="footer">
-        <div id="footer_f_line">
-            <div class="footer_f_line">
-                @2022 Jayjay Dinero Dinero
-            </div>
-            <div class="footer_f_line">
-                Web Developer
-            </div>
-            <div class="footer_f_line">
-                Designed by @ernestechie
-            </div>
-        </div>
-        <div id="footer_s_line">
-            <div class="social">
-                <div>
-                    <img src="pic/telegram.svg" alt="tg">
-                </div>
-                <div>
-                    <img src="pic/vk.svg" alt="vk">
-                </div>
-                <div>
-                    <img src="pic/gmail.svg" alt="gmail">
-                </div>
-                <div>
-                    <img src="pic/whatsapp.svg">
                 </div>
             </div>
         </div>
