@@ -8,7 +8,7 @@ body{
     padding: 0 15px;
     margin: 0 auto;
     display: flex;
-   
+
     gap: 394px;
 }
 
@@ -34,6 +34,7 @@ body{
     font-style: normal;
     font-weight: 600;
     line-height: 42px;
+    cursor: pointer;
 }
 #nav{
     display: flex;
@@ -52,5 +53,113 @@ body{
     cursor: pointer;
 }
 #home{
-    color: var(--primary-colour, #7562E0);
+    background: #1A1A29;
+}
+.container_2{
+    max-width: 1416px;
+    padding: 0 15px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+ 
+}
+#cont_f_line{
+    display: flex;
+    flex-direction: row;
+    gap: 160px;
+}
+#home_f_column{
+    margin-top: 209px;
+    margin-left: 136px;
+}
+.hello{
+    color: var(--white, #FFF);
+    font-family: 'Poppins';
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 48px;
+}
+.her h2{
+    color: var(--light-colour, #F5F5F5);
+    font-family: 'Poppins';
+    font-size: 52px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 78px;
+    width: 475px;
+}
+#buttons{
+    display: flex;
+    flex-direction: row;
+    gap: 32px;
+    align-items: center;
+    
+}
+.button{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    padding: 12px 34px;
+    gap: 5px;
+    border-radius: 8px;
+    border: 2px solid var(--primary-colour, #7562E0);
+    width: 160px;
+    height: 48px;
+    margin-top: 29px;
+    color: var(--white, #FFF);
+    font-family: 'Poppins';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px;
+    cursor: pointer;
+   
+}
+#home_s_column{
+    margin-top: 209px;
+}
+#about_me{
+    gap: 6px;
+    padding: 12px 25px;
+    background: var(--primary-colour, #7562E0);
+    border: none;
+}
+#home_s_column{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 486px;
+    height: 486px;
+    flex-shrink: 0;
+    border-radius: 486px;
+    background: var(--primary-colour, #7562E0);
+
+}
+#photo{
+    width: 444px;
+    height: 444px;
+    flex-shrink: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -300px;
+}
+#me{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 415px;
+    height: auto;
+}
+.line{
+    justify-content: center;
+    align-items: center;
+    width: 5000px;
+    height: 120px;
+    flex-shrink: 0;
+    background: red;
+    margin-top: -120px;
+    z-index: 1;
+    position: absolute;
 }
