@@ -3,6 +3,7 @@
 body{
     font-family: 'Poppins', sans-serif;
     overflow-x: hidden;
+    background: #1A1A29;
 }
 .container{
     max-width: 1416px;
@@ -52,9 +53,6 @@ body{
     font-weight: 600;
     line-height: 27px;
     cursor: pointer;
-}
-#home{
-    background: #1A1A29;
 }
 .container_2{
     max-width: 1416px;
@@ -173,11 +171,6 @@ body{
     
 }
 
-    
-
-#about{
-    background: #1A1A29;
-}
 #about_f_line{
     margin-top: 55px;
     margin-left: 136px;
@@ -250,7 +243,7 @@ body{
     flex-shrink: 0;
     background: var(--primary-colour, #7562E0);
     box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.20);
-    
+    cursor: pointer;
 }
 .items{
     width: 42px;
@@ -278,4 +271,60 @@ body{
 #s_plate h3{
     width: 171px;
     height: 72px;
+}
+#offer{
+    display: flex;
+    margin-top: 80px;
+    margin-left: 136px;
+    color: var(--primary-colour, #7562E0);
+    font-family: 'Poppins';
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+#services_block{
+    display: flex;
+    flex-direction: row;
+    gap: 22px;
+    margin-top: 32px;
+    margin-left: 136px;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: top;
+    padding-top: 75px;
+    align-items: center;
+    text-align: center;
+    row-gap: 11px;
+    cursor: pointer;
+    width: 341px;
+    height: 338px;
+    flex-shrink: 0;
+    border-radius: 16px;
+    border: 3px solid var(--primary-colour, #7562E0);
+    box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.20);
+   
+}
+.items_2{
+    width: 56px;
+    height: 56px;
+}
+.card span{
+    color: var(--primary-colour, #7562E0);
+    font-family: 'Poppins';
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 36px;
+}
+.card h3{
+    color: var(--white, #FFF);
+    text-align: center;
+    font-family: 'Poppins';
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 32px; /* 188.235% */
 }
