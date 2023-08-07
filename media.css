@@ -29,5 +29,40 @@
 
     }
     */
+    #cont_f_line{
+        display: flex;
+        flex-direction: column;
+        gap: 160px;
+        width: 100%;
+    }
+    #home_f_column{
+        margin-top: 50px;
+        margin-left: 136px;
+        display: flex;
+        flex-direction: column;
+    }
+    #home_s_column{
+        margin-top: 109px;
+    }
+    #about_f_line{
+        display: flex;
+        flex-direction: column;
+        margin-top: 55px;
+        margin-left: 136px;
+    }
+    #about_s_line{
+        display: flex;
+        flex-direction: column;
+    }
+    #services_block{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
+@media screen and (min-width:760px){
+   
+
     
 }
